@@ -15,5 +15,5 @@ Arbitrage is possible when one of three conditions is met:
 
 ..2. Two assets with identical cash flows do not trade at the same price.
 
-..3. An asset with a known price in the future does not today trade at its future price discounted at the risk-free interest rate (or, the asset does not have negligible costs of storage; as such, for example, this condition holds for grain but not for securities).
+..3. An asset with a known price in the future does not today trade at its future price discounted at the risk-free interest rate.
 
