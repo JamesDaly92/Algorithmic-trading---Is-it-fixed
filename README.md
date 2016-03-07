@@ -16,7 +16,7 @@ Arbitrage is possible when one of three conditions is met:
 2. Two assets with identical cash flows do not trade at the same price.
 
 3. An asset with a known price in the future does not today trade at its future price discounted at the risk-free interest rate.
-4. 
+
 - **Mean Reversion**
 It is generally considered that a stock's high and low prices, generally caused by short-term movements as a result of earnings calls, news releases etc. are temporary, and that a stock's price tends to have an average price over time. This would be a moving average either increasing or decreasing. An example of a mean-reverting process is the Vasicek interest rate model which I actually discussed and modeled via stochastic differential equations for my final year project.
 
