@@ -3,7 +3,7 @@
 
  
 ### Strategies
-Algorithmic trading may be used in any investment strategy or trading strategy, including market making, inter-market spreading, arbitrage. The investment decision and implementation may be augmented at any stage with algorithmic support or may operate completely automatically.
+Algorithmic trading may be used in any investment strategy or trading strategy, including market making, inter-market spreading, arbitrage. The investment decision and implementation may be augmented at any stage with algorithmic support or may operate completely automatically. There are hundreds, if not thousands, of possible strategies utilized across the globe depending on the focus of the firm. For the purpose of this assignment I will discuss just a few of the most easily understood and most common strategies to give the reader an idea of what is involved.
 
 - **Pairs Trading:**
 Pairs trading is a long-short, ideally market-neutral strategy which enables traders to profit from discrepancies in the value of close substitutes. In simpler terms, for example, consider two mining companies with very similar cash flows, net profit etc. Consider the siyuation where one company trades for a P/E of 8, while the other trades for a P/E of 14. In this scenario one would buy the (cheaper) first company and short the stock of the second (more expensive) company.
@@ -19,4 +19,6 @@ Arbitrage is possible when one of three conditions is met:
 
 - **Mean Reversion**
 It is generally considered that a stock's high and low prices, generally caused by short-term movements as a result of earnings calls, news releases etc. are temporary, and that a stock's price tends to have an average price over time. This would be a moving average either increasing or decreasing. An example of a mean-reverting process is the Vasicek interest rate model which I actually discussed and modeled via stochastic differential equations for my final year project.
+
+### 
 
