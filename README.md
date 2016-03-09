@@ -21,4 +21,4 @@ Arbitrage is possible when one of three conditions is met:
 It is generally considered that a stock's high and low prices, generally caused by short-term movements as a result of earnings calls, news releases etc. are temporary, and that a stock's price tends to have an average price over time. This would be a moving average either increasing or decreasing. An example of a mean-reverting process is the Vasicek interest rate model which I actually discussed and modeled via stochastic differential equations for my final year project.
 
 ### Controversy and Concerns
-A lot of concern has arisen in recent years with the rise of high-frequency trading, a trading style whose key attributes are highly sophisticated algorithms, specialized order types, co-location, very short-term investment horizons, and high cancellation rates for orders.
+A lot of concern has arisen in recent years with the rise of high-frequency trading, a form of algorithmic trading whose key attributes are highly sophisticated algorithms, specialized order types, co-location, very short-term investment horizons, and high cancellation rates for orders.
