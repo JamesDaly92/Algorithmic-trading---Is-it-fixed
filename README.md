@@ -17,13 +17,14 @@ Arbitrage is possible when one of three conditions is met:
 
 3. An asset with a known price in the future does not today trade at its future price discounted at the risk-free interest rate.
 
+##### Sample Code for Option Pricing
+Now presented to the reader is a segment of code that could be implemented for finding arbitrage opportunities. 
+
 - **Mean Reversion:**
 It is generally considered that a stock's high and low prices, generally caused by short-term movements as a result of earnings calls, news releases etc. are temporary, and that a stock's price tends to have an average price over time. This would be a moving average either increasing or decreasing. An example of a mean-reverting process is the Vasicek interest rate model which I actually discussed and modeled via stochastic differential equations for my final year project.
 
 ### Low-Latency Trading
 Network-induced latency, a synonym for delay, measured in one-way delay or round-trip time, is normally defined as how much time it takes for data to travel from one point to another. Low latency trading refers to the algorithmic trading systems and network routes used by financial institutions connecting to stock exchanges and Electronic communication networks (ECNs) to rapidly execute financial transactions. Most HFT firms depend on low latency execution of their trading strategies.
-
-### Sample SDE for Option Pricing
 
 ### Controversy and Concerns
 A lot of concern has arisen in recent years with the rise of high-frequency trading, a form of algorithmic trading whose key attributes are the use of highly sophisticated algorithms, specialized order types, co-location, very short-term investment horizons, and high cancellation rates for orders. People feel that the big investment firms and hedge funds that have the resources and capital to build and run such expensive and complex networks have an unfair advantage in the market. These people argue that a lot of the high-frequency trading that the investment firms are carrying out is illegal and that they are using the old, slow networks that individual traders use to their advantage to front orders and to use a scalping trading strategy to gain small profits many time per day from smaller individual traders.
