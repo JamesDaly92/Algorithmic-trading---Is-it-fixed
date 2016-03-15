@@ -17,8 +17,18 @@ Arbitrage is possible when one of three conditions is met:
 
 3. An asset with a known price in the future does not today trade at its future price discounted at the risk-free interest rate.
 
-##### Sample Code for Option Pricing
-Now presented to the reader is a segment of code that could be implemented for finding arbitrage opportunities in the pricing of call options.
+##### Put-Call Parity 
+Put-call parity is a principle that defines the relationship between the price of European put options and European call options of the same class, that is, with the same underlying asset, strike price and expiration date. Put-call parity states that simultaneously holding a short European put and long European call of the same class will deliver the same return as holding one forward contract on the same underlying asset, with the same expiration and a forward price equal to the option's strike price. If the prices of the put and call options diverge so that this relationship does not hold, an arbitrage opportunity exists, meaning that sophisticated traders can earn a theoretically risk-free profit. Such opportunities are uncommon and short-lived in liquid markets.
+
+The equation expressing put-call parity is:
+
+C + PV(x) = P + S
+
+where:
+
+<pre><code
+
+<\code><\pre>
 
 - **Mean Reversion:**
 It is generally considered that a stock's high and low prices, generally caused by short-term movements as a result of earnings calls, news releases etc. are temporary, and that a stock's price tends to have an average price over time. This would be a moving average either increasing or decreasing. An example of a mean-reverting process is the Vasicek interest rate model which I actually discussed and modeled via stochastic differential equations for my final year project.
