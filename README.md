@@ -38,17 +38,17 @@ where:
 
 **S(t)** = spot price, the current market value of the underlying asset.
 
-Note that the value of the call and put option in the put-call parity above can be calculated by the use of the Black-Scholes model for pricing options.
+Note that the value of the call and put option in the put-call parity above can be calculated by the use of the following code segment. The MATLAB code below is one method used to value a European call option via Geometric Brownian Motion. The only difference required to value a European put option occurs towards the end of the algorithm. For the call option we calculate ***CT=max(0,ST-K);***, whereas if we are dealing with a European put we would change this to ***CT=max(K-ST,0);***.
 
 <pre><code>
-K=95
-Nrealiz=1000
-S=100 % stock price at time 0
-sig=0.2 % volatility
-T=1 % end-time (in years)
-ri=0.06 % risk-free interest rate
-div=0.03 % dividend yield
-N=500 % number of time steps
+K = Strike price
+Nrealiz = Number of realizations
+S = Stock price at time zero
+sig = Volatility
+T = End-time
+ri = Risk-free interest rate
+div = Dividend yield
+N = Number of time steps
 
 dt=T/N;
 nudt=(ri-div-0.5*sig^2)*dt;
@@ -58,26 +58,20 @@ x0=log(S); % initial value for x=ln(S)
 
 %figure
 %hold on
-tic
 
 sum_CT=0;
-sum_CT2=0;
 for i=1:Nrealiz
     x=zeros(N,1);
     t=zeros(N,1);
     x(1)=x0; % initial condition
-    t(1)=0;
     r=randn(N,1);
     for n=1:(N-1)
         x(n+1)=x(n)+nudt+sigsdt*r(n);
-        t(n+1)=t(n)+dt;
     end
     Sv=exp(x);
-%    plot(t,Sv,'k-');
     ST=Sv(N);
     CT=max(0,ST-K);
     sum_CT=sum_CT+CT;
-    sum_CT2=sum_CT2+CT^2;
 end
 
 call_value=sum_CT/Nrealiz*exp(-ri*T)
