@@ -17,22 +17,26 @@ Arbitrage is possible when one of three conditions is met:
 
 3. An asset with a known price in the future does not today trade at its future price discounted at the risk-free interest rate.
 
-##### Put-Call Parity 
+##### Put-Call Parity - Arbitrage Opportunity
 Put-call parity is a principle that defines the relationship between the price of European put options and European call options of the same class, that is, with the same underlying asset, strike price and expiration date. Put-call parity states that simultaneously holding a short European put and long European call of the same class will deliver the same return as holding one forward contract on the same underlying asset, with the same expiration and a forward price equal to the option's strike price. If the prices of the put and call options diverge so that this relationship does not hold, an arbitrage opportunity exists, meaning that sophisticated traders can earn a theoretically risk-free profit. Such opportunities are uncommon and short-lived in liquid markets.
 
 The equation expressing put-call parity is:
 
-***C + PV(x) = P + S***
+***C(t) + K exp(-r(T-t)) = P(t) + S(t)***
 
 where:
 
-**C** = price of the European call option
+**C(t)** = price of the European call option
 
-**PV(x)** = the present value of the strike price (x), discounted from the value on the expiration date at the risk-free rate
+**K** = the strike price
 
-**P** = price of the European put
+**r** = the risk-free interest rate
 
-**S** = spot price, the current market value of the underlying asset
+**T** and **t** = the expiration date and today respectively
+
+**P(t)** = price of the European put
+
+**S(t)** = spot price, the current market value of the underlying asset
 
 <pre><code>
 code
