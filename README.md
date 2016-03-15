@@ -34,8 +34,8 @@ where:
 
 **S** = spot price, the current market value of the underlying asset
 
-<pre><code
-
+<pre><code>
+code
 </code></pre>
 
 - **Mean Reversion:**
