@@ -28,7 +28,7 @@ where:
 
 <pre><code
 
-<\code><\pre>
+</code></pre>
 
 - **Mean Reversion:**
 It is generally considered that a stock's high and low prices, generally caused by short-term movements as a result of earnings calls, news releases etc. are temporary, and that a stock's price tends to have an average price over time. This would be a moving average either increasing or decreasing. An example of a mean-reverting process is the Vasicek interest rate model which I actually discussed and modeled via stochastic differential equations for my final year project.
