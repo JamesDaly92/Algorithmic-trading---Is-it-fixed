@@ -22,9 +22,17 @@ Put-call parity is a principle that defines the relationship between the price o
 
 The equation expressing put-call parity is:
 
-C + PV(x) = P + S
+***C + PV(x) = P + S***
 
 where:
+
+**C** = price of the European call option
+
+**PV(x)** = the present value of the strike price (x), discounted from the value on the expiration date at the risk-free rate
+
+**P** = price of the European put
+
+**S** = spot price, the current market value of the underlying asset
 
 <pre><code
 
