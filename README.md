@@ -1,5 +1,5 @@
 <p align="center">
-![stock](https://github.com/JamesDaly92/Algorithmic-trading---Strategies-and-Concerns/blob/master/Algo-Trading.png)
+![stock-market-3](https://github.com/JamesDaly92/Algorithmic-trading---Strategies-and-Concerns/blob/master/Algo-Trading.png)
 </p>
 
 ![stock-market-3](https://github.com/JamesDaly92/Algorithmic-trading---Strategies-and-Concerns/blob/master/Algo-Trading.png)
