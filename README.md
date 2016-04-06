@@ -1,3 +1,7 @@
+<p align="center">
+  <img />
+</p>
+
 ![stock-market-3](https://github.com/JamesDaly92/Algorithmic-trading---Strategies-and-Concerns/blob/master/Algo-Trading.png)
  
 ### What is Algorithmic Trading?
