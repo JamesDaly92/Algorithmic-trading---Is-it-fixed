@@ -57,9 +57,6 @@ sigsdt=sig*sqrt(dt);
 
 x0=log(S); % initial value for x=ln(S)
 
-%figure
-%hold on
-
 sum_CT=0;
 for i=1:Nrealiz
     x=zeros(N,1);
