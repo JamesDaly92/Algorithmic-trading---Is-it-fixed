@@ -9,7 +9,7 @@ Algorithmic trading may be used in any investment strategy or trading strategy, 
 - **Pairs Trading:**
 Pairs trading is a long-short, ideally market-neutral strategy which enables traders to profit from discrepancies in the value of close substitutes. In simpler terms, for example, consider two mining companies with very similar cash flows, net profit etc. Consider the siyuation where one company trades for a P/E of 8, while the other trades for a P/E of 14. In this scenario one would buy the (cheaper) first company and short the stock of the second (more expensive) company.
 
-- **Arbitrage:**
+- **Arbitrage:** 
 Arbitrage is possible when one of three conditions is met:
 
 1. The same asset does not trade at the same price on all markets (the "law of one price" is temporarily violated).
