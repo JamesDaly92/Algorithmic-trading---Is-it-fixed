@@ -83,5 +83,3 @@ Network-induced latency, a synonym for delay, measured in one-way delay or round
 
 ### Controversy and Concerns
 A lot of concern has arisen in recent years with the rise of high-frequency trading, a form of algorithmic trading whose key attributes are the use of highly sophisticated algorithms, specialized order types, co-location, very short-term investment horizons, and high cancellation rates for orders. People feel that the big investment firms and hedge funds that have the resources and capital to build and run such expensive and complex networks have an unfair advantage in the market. These people argue that a lot of the high-frequency trading that the investment firms are carrying out is illegal and that they are using the old, slow networks that individual traders use to their advantage to front orders and to use a scalping trading strategy to gain small profits many time per day from smaller individual traders.
-
-
